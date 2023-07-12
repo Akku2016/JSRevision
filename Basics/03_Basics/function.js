@@ -30,3 +30,26 @@ function loginUserMessages(username){
     return `'${username}' just logged In`
 }
 console.log(loginUserMessages());
+//how to use function in object 
+const user={
+    name:"akansha",
+    age:32
+}
+
+function handleObject(anyobject){
+    console.log(`name is ${anyobject.name} and age is ${anyobject.age}`);
+}
+handleObject(user);
+//or
+handleObject({
+    name:'ram',
+    age:45
+})
+
+//function with array
+const newArray =[200,400,600,7,]
+function returnarray(getArray){
+    return getArray[1]
+}
+
+console.log(returnarray(newArray));
