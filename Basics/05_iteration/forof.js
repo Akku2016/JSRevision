@@ -4,7 +4,8 @@
 //array example
 // for of is iterate for array,map,string .not for object.
 const arr =[1,2,3,4,5]
-for(const num of arr) {
+const programming=["js","rb","py","java","cpp"]
+for(const num of programming) {
     console.log(num);
 }
 
